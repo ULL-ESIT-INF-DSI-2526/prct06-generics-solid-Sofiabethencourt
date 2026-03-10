@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1773095467106" clover="3.2.0">
-  <project timestamp="1773095467107" name="All files">
-    <metrics statements="26" coveredstatements="26" conditionals="2" coveredconditionals="2" methods="32" coveredmethods="32" elements="60" coveredelements="60" complexity="0" loc="26" ncloc="26" packages="5" files="14" classes="14"/>
+<coverage generated="1773181294643" clover="3.2.0">
+  <project timestamp="1773181294643" name="All files">
+    <metrics statements="70" coveredstatements="70" conditionals="4" coveredconditionals="4" methods="78" coveredmethods="78" elements="152" coveredelements="152" complexity="0" loc="70" ncloc="70" packages="11" files="37" classes="37"/>
     <package name="src">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="index.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/index.ts">
@@ -82,6 +82,137 @@
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
       <file name="SearchByYear.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-1/interfaces/SearchByYear.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.ejercicio-2.Busquedas">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="18"/>
+      <file name="SeachChef.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/Busquedas/SeachChef.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="SearchPaso.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/Busquedas/SearchPaso.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+      <file name="SearchReceta.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/Busquedas/SearchReceta.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ejercicio-2.Herramientas">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="PasoConHerramienta.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/Herramientas/PasoConHerramienta.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="PasoConTemperatura.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/Herramientas/PasoConTemperatura.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ejercicio-2.Servicios">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="recipeTimeEstimator.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/Servicios/recipeTimeEstimator.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+      </file>
+      <file name="tablePresenter.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/Servicios/tablePresenter.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ejercicio-2.clases">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="chef.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/clases/chef.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="14" type="stmt"/>
+      </file>
+      <file name="pasos.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/clases/pasos.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="17" count="24" type="stmt"/>
+        <line num="18" count="24" type="stmt"/>
+      </file>
+      <file name="receta.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/clases/receta.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ejercicio-2.colecciones">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="19" coveredmethods="19"/>
+      <file name="ChefRepository.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/colecciones/ChefRepository.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+      <file name="PasosRepository.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/colecciones/PasosRepository.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+      <file name="RecetaRepository.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/colecciones/RecetaRepository.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ejercicio-2.interfaces">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Repository.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/interfaces/Repository.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="SeachByTags.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/interfaces/SeachByTags.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="SearchByFollowers.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/interfaces/SearchByFollowers.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="SearchByName.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/interfaces/SearchByName.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="SearchByOpcionality.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/interfaces/SearchByOpcionality.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="SearchByYear.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/interfaces/SearchByYear.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="TablePresenter.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/interfaces/TablePresenter.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="elementosChef.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/interfaces/elementosChef.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="elementosPasos.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/interfaces/elementosPasos.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="elementosReceta.ts" path="/home/usuario/prct06-generics-solid-Sofiabethencourt/src/ejercicio-2/interfaces/elementosReceta.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
